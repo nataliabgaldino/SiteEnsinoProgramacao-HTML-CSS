@@ -1,0 +1,274 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  color: white;
+  background-image: linear-gradient(to right, #03658C, #00378A, #030E8C, #23038C);
+  overflow-x: hidden; /*evitar que o conteúdo exceda a largura da tela */
+}
+.itens-principais {
+  text-align: center;
+  width: 80%; 
+  margin-left: auto;
+  margin-right: auto;
+  display: block; 
+  position: relative;
+  top: 200px;
+  color: #F8F9FD;
+  
+}
+.foto-algoritmo {
+  display: flex;
+  justify-content: center; 
+  width: 100%;
+  height: auto;
+ 
+}
+.foto-algoritmo img {
+  max-width: 100%;
+  height: auto; 
+  
+}
+
+.titulo-algoritmo {
+  text-align: center;
+  color: #b9d1f4;
+  align-items: center;
+  
+}
+.oquee{position: relative;
+  top: 200px;
+  
+  color: #F8F9FD;}
+
+
+/*
+.primeiroalgoritmo, .comandoEntradaOp, .oqueeAlgortimo, .scratch, .operadores {
+ 
+} --> */
+.boasvindas, .link-aulas{
+  margin-left: auto;
+  margin-right: auto;
+}
+.video-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56%; 
+  height: 0;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+@media screen and (max-width: 792px) {
+.main-header {
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+  }
+
+.main-header__menu {
+    margin-left: 0;
+    width: 100%;
+  }
+
+.main-header__menu ul {
+    flex-wrap: wrap;
+  }
+
+.main-header__menu ul li {
+    width: 100%;
+    margin-right: 0;
+  }
+}
+@media (max-width: 479px) {
+body {
+font-size: 12px;
+  }
+}
+
+.main-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: #00378A;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 40%;
+  height: auto;
+}
+
+.main-header__title--blue {
+  color: #F8F9FD;
+  font-size: 32px; 
+}
+.footer__about-text  {
+  color: #F8F9FD;
+  position: relative;
+  right: 100PX;
+  
+}
+.main-header__menu ul li a {
+  color: #F8F9FD;
+  text-decoration: none;
+  position: relative;
+  right: 110PX;
+}
+.footer__container {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  position: relative;
+  left: 50px;
+}
+.itens-principais{position: relative;
+top: 300px;}
+@media screen and (max-width: 792px) {
+  .main-header__title--blue {
+    font-size: 32px; 
+  }
+  .footer{
+    font-size: 14px;
+  }
+  .footer__title{
+    font-size :22px;
+        }
+        
+        }
+        @media screen and (max-width: 480px) {
+          .main-header__title--blue {
+            font-size: 24px; 
+          }
+          .footer{
+            font-size: 10px;
+          }
+          .footer__title{
+            font-size :18px;
+                }
+                
+               
+        } 
+        @media screen and (max-width: 320px) {
+          .main-header__title--blue {
+            font-size: 10px; 
+          }
+          .footer{
+            font-size: 8px;
+          }
+          .footer__title{
+      font-size :14px;
+          }
+         
+          
+        }
+        .main-header__menu {
+          margin-left: 100px;
+        }
+      
+        .main-header__menu ul {
+          list-style: none;
+          display: flex;
+        }
+      
+        .main-header__menu ul li {
+          margin-right: 20px;
+        }
+      
+        .main-header__menu ul li a {
+          color: #F8F9FD;
+          text-decoration: none;
+        }
+      
+        .main-header__menu ul li a:hover {
+          color: #609EFB;
+        }
+        .footer {
+          position: relative;
+          top: 300px;
+          background-color: #00378A;
+          align-items: center;
+          width: 100%;
+          padding: 20px; 
+          box-sizing: border-box;
+        }
+        
+        .footer__container {
+          display: flex;
+          justify-content: space-between; 
+          align-items: center;
+          position: relative;
+          left: 100px;
+        }
+        
+      .footer__title {
+          
+          font-weight: 50px;
+          color: #F8F9FD;
+          margin-bottom: 5px;
+        }
+      
+        .footer__about-text  {
+          color: #F8F9FD;
+          position: relative;
+          left: 150px;
+        }
+        
+        .footer__copyright {
+          color: #F8F9FD;
+          
+        }
+
+
+
+/*  p de layla*/
+.instalando_button {
+  top: 600px;
+  left: 650px;
+  background-color: #609EFB;
+  border: none;
+  border-radius: 100px;
+  color: white;
+  padding: 15px 32px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.instalando_button:hover {
+  background-color: #00378a;
+}
+
+
+.instalando_button {
+  padding: 15px 32px;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .instalando_button {
+      padding: 10px 20px;
+      font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .instalando_button {
+      padding: 5px 10px;
+      font-size: 14px;
+  }
+}
+

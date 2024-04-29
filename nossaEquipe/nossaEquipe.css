@@ -1,0 +1,297 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  color: white;
+  background-image: linear-gradient(to right, #03658C, #00378A, #030E8C, #23038C);
+  overflow-x: hidden; /* Adicionado para evitar que o conteúdo exceda a largura da tela */
+}
+ 
+  h1{
+    text-align: center;
+    margin: 20px;
+    color: white;
+  }
+
+  @media screen and (max-width: 792px) {
+    .main-header {
+      flex-direction: column;
+      width: 100%;
+      height: auto;
+    }
+
+    .main-header__menu {
+      margin-left: 0;
+      width: 100%;
+    }
+
+    .main-header__menu ul {
+      flex-wrap: wrap;
+    }
+
+    .main-header__menu ul li {
+      width: 100%;
+      margin-right: 0;
+    }
+}
+@media (max-width: 479px) {
+    body {
+      font-size: 12px;
+    }
+  }
+.fale{position: relative;
+      right: 550px;}
+.form1{position: relative;
+right: 350px;}
+  .main-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color:#00377A ;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+  }
+  .devs{position: relative;
+  top:150px}
+
+  .logo img {
+    width: 40%;
+    height: auto;
+  }
+  .footer__about-text  {
+    color: #F8F9FD;
+    
+    
+  }
+  .main-header__menu ul li a {
+    color: #F8F9FD;
+    text-decoration: none;
+    position: relative;
+    right: 60PX;
+  }
+  .footer__container {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    position: relative;
+    
+  }
+
+  .main-header__title--blue {
+    color: #F8F9FD;
+    font-size: 32px; 
+  }
+  @media screen and (max-width: 792px) {
+    .main-header__title--blue {
+      font-size: 32px; 
+    }
+    .footer{
+      font-size: 14px;
+    }
+    .footer__title{
+      font-size :22px;;
+          }}
+    
+          @media screen and (max-width: 480px) {
+            .main-header__title--blue {
+              font-size: 24px; 
+            }
+            .footer{
+              font-size: 10px;
+            }
+            .footer__title{
+              font-size :18px;;
+                  }
+                 
+          } 
+          @media screen and (max-width: 320px) {
+            .main-header__title--blue {
+              font-size: 10px; 
+            }
+            .footer{
+              font-size: 8px;
+            }
+            .footer__title{
+            font-size :14px;;
+            }
+           
+            
+            }
+            .main-header__menu {
+            margin-left: 100px;
+            }
+        
+          .main-header__menu ul {
+            list-style: none;
+            display: flex;
+          }
+        
+          .main-header__menu ul li {
+            margin-right: 20px;
+          }
+        
+          .main-header__menu ul li a {
+            color: #F8F9FD;
+            text-decoration: none;
+          }
+        
+          .main-header__menu ul li a:hover {
+            color: #609EFB;
+          }
+          .footer {
+            background-color: #00378A;
+            position: relative;
+            top: 400px;
+            width: 100%;
+            padding: 20px; 
+            box-sizing: border-box;
+          }
+          
+          .footer__container {
+            display: flex;
+            justify-content: space-between; 
+            align-items: center;
+            position: relative;
+            left: 100px;
+          }
+          
+        .footer__title {
+            
+            font-weight: 50px;
+            color: #F8F9FD;
+            margin-bottom: 5px;
+          }
+
+          .footer__about-text  {
+            color: #F8F9FD;
+            position: relative;
+            left: 50px;
+          }
+          
+          .footer__copyright {
+            color: #F8F9FD;
+            
+          }
+          
+
+
+          .gallery {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            position: relative;
+            top: 200px;
+            
+          }
+          .fale-conosco{position: relative;
+          top: 250px;
+          left: 550px;
+          color:#F8F9FD ;}
+          .form-devs{position: relative;
+          top:300px;
+          left:350px;
+          color: #F8F9FD;
+      }
+
+          .image {
+            margin-right: 30px;
+            position: relative;
+            display: inline-block;
+  
+          }
+
+          .image img{
+            position: relative;
+            display: inline-block;
+            width: 180px;
+            height: auto;
+            background-color: white;
+            border-radius: 20px;
+            border: 20px solid white;
+            padding-block-end: 60px ;
+            box-shadow: rgba(255, 255, 255, 0.2) 4px 4px 4px 4px;
+          }
+          
+          .fale_comigo_button {
+            position: absolute; 
+            top: 70%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding: 10px 12px; 
+            border: none; 
+            background-color: #00377A;
+            font-size: 15px;
+            color: white; 
+            border-radius: 25px;
+            cursor: pointer;  
+
+          }
+          
+          .fale_comigo_button:hover {
+            background-color: #609EFB;
+            color: #00377A;
+          }
+
+
+          .image p{
+            text-align: center;
+            color: white;
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+          }
+
+          @media screen and (max-width: 792px) {
+            .image {
+              margin-right: 0;
+              margin-bottom: 20px;
+              width: 50%;
+              text-align: center;
+            }
+
+            .image img{
+              max-width: 50%;
+            }
+            
+            .fale_comigo_button {
+              position: absolute; 
+              margin-top: auto;
+              margin-right: auto;
+              margin-left: auto;
+              display: block;
+            }
+
+          }
+
+          @media screen and (max-width: 568px) {
+            .image {
+              margin-right: 0;
+              margin-bottom: 20px;
+              width: 45%;
+              text-align: center;
+            }
+
+            .image img{
+              max-width: 45%;
+            }
+            
+            .fale_comigo_button {
+              top: 50%;
+              left: 50%;
+              padding: 5px 10px;
+              position: absolute; 
+              margin-top: auto;
+              margin-right: auto;
+              margin-left: auto;
+              display: block;
+            }
+
+            h1 {
+              font-size: 25px;
+            }
+          }
